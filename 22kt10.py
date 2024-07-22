@@ -49,8 +49,40 @@ print(more)
 
 #nested list
 list1 = ['a', 'b','c','d',['apple','blue'],['300','500','800']]
-print(list1[4])
+print(list1[4][1][2])
+print(list1[-1])
 
 
 
+#acceing element from the list
 
+list1 = eval(input("enter list:"))
+print(list1[2])
+print(list1[0:4])
+
+list[0]= "a"
+list1[1]= "b"
+print(list1)
+
+#looping through the list
+numbers =(1,2,3,4,5)
+i = 0
+while i < len(numbers):
+  print(numbers[i])
+i= i+1
+
+numbers = [10,20,30,40]
+for element in numbers:
+  print(element)
+
+
+#insert>>>
+numbers = [1,3,5]
+numbers.insert(1,2)
+numbers.insert(1,4)
+print(numbers)
+numbers.insert(10,True)
+print(numbers)
+
+numbers.insert(10,50.0)
+print(numbers)
